@@ -80,7 +80,7 @@ a:hover{
 }
 .biopics{
     grid-row: 11;
-    right: 10px;
+    right: 12px;
     align-self: center;
     justify-self: center;
     padding-bottom: 12%;
@@ -96,6 +96,7 @@ img.hist{
     transition: transform 500ms;
     z-index: 10;
 }
+
 .art{
     grid-row: 12;
     padding-bottom: 5%;
