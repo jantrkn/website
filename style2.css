@@ -156,7 +156,20 @@ p{
 .para{
     margin-top: 3%;
 }
-
+.foot{
+    grid-row: 13;
+    grid-column: 1;
+    padding-left: 10%;
+    font-size: 20px;
+    padding-top: 10%;
+}
+.bar{
+    grid-row: 12;
+    grid-column: 1/-1;
+    border-bottom: 3px solid white;
+    max-width: 70%;
+    margin-top: -30%;
+}
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
