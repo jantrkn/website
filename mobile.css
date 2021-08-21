@@ -49,7 +49,9 @@ img#circle{
     /* font-weight: bold; */
 }
 .mainlist a.mls{
-    padding-left: 10%;
+    padding: 6%;
+    height: 30vh;
+    text-align: justify;
 }
 a:hover{
     color: #1f66e5;
