@@ -29,6 +29,7 @@
     padding-left: 10%;
     /* float: right; */
     /* margin-left: 300px; */
+    animation: fadein 4s;
     transition: transform 500ms;
 }
 .janapic:hover{
