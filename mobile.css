@@ -40,7 +40,7 @@ img#circle{
 }
 
 .mainlist{
-    padding-left: 10%;
+    padding: 2%;
     grid-row: 4;
     z-index: 10;
     /* margin-left: 10%; */
@@ -49,9 +49,10 @@ img#circle{
     /* font-weight: bold; */
 }
 .mainlist a.mls{
-    padding: 6%;
+    padding: 8%;
     height: 30vh;
-    text-align: justify;
+    display: inline;
+    justify-content: space-evenly;
 }
 a:hover{
     color: #1f66e5;
