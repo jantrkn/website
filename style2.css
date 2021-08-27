@@ -88,9 +88,9 @@ a:hover{
     transform: translateY(-75px);
 }
 img.hist{
-    max-width: 275px;
+    max-width: 20vw;
     height: auto;
-    padding: 10px;
+    padding: 2vw;
     transition: transform 500ms;
     z-index: 10;
 }
