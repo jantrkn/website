@@ -16,23 +16,29 @@
 }
 .janapic{
     grid-row: 3;
-    grid-column: 4;
-    padding-top: 100px;
-    padding-left: 10vw;
-    /* float: right; */
+    grid-column: -1/-2;
+    /* right: 20px; */
+    /* right: 10px; */
+    align-self: center;
+    justify-self: right;
+    padding-top: 6vw;
+    /* padding-right: 2vw; */
+    /* padding-left: 3vw; */
+    /* float: left; */
     /* margin-left: 300px; */
+    /* margin-left: 3vw;
+    margin-right: 2vw;
+    padding: 3%; */
     transition: transform 500ms;
 }
 .janapic:hover{
     transform: translateY(-50px);
 }
-.janapic#profilepic{
-    z-index: 100;
-    
-    position: relative;
-    width: 30vw;
+.prfpic{
+    border-radius: 50%;
+    max-width: 40vw;
     height: auto;
-    /* width: 300px; */
+    padding: 2%;
 }
 .mainlist{
     grid-row: 3;
@@ -40,6 +46,7 @@
     z-index: 10;
     margin-left: 10%;
     font-size: 100px;
+    
     /* font-weight: bold; */
 }
 .mls{
@@ -93,7 +100,7 @@ a:hover{
 img.hist{
     max-width: 20vw;
     height: auto;
-    padding: 2vw;
+    padding: 1vw;
     transition: transform 500ms;
     z-index: 10;
 }
