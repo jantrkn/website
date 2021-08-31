@@ -184,6 +184,7 @@ img.hist{
     }
     .biopics{
         grid-row: 11;
+        padding-top: 18vw;
         right: 12px;
     }
     .art{
