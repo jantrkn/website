@@ -61,7 +61,8 @@ p{
     grid-column: -1/-2;
     align-self: center;
     justify-self: right;
-    padding-top: 6vw;
+    padding-top: 6vh;
+    padding-right: 7vw;
     transition: transform 500ms;
 }
 .janapic:hover{
@@ -186,6 +187,8 @@ img.hist{
         grid-row: 11;
         padding-top: 18vw;
         right: 12px;
+        padding-right: 4vw;
+        padding-left: 4vw;
     }
     .art{
         grid-row: 12;
